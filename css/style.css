@@ -427,6 +427,18 @@ footer {
 }
 
 
+
+/************ start about page******************/
+.about {
+		margin-top: 64px;
+		margin-bottom: 30px;
+	}
+.about img{
+		border-radius: 40px;
+	}
+
+
+
 /* ================================
 more media queries
 ================================= */
@@ -462,5 +474,10 @@ more media queries
 @media (max-width:480px){
 	#intro{
 		background-image: none;
+	}
+
+	.about img {
+		border-radius: 40px;
+		width: 100%;
 	}
 }
